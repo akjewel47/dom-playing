@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="style/style.css">
+ <!-- daisyUI /Tailwindcss -->
+ <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+ <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+ <!-- navbar -->
+ <nav class="flex justify-between items-center container mx-auto mt-6">
+  <div class="flex gap-2 text-2xl font-bold hover:bg-red-600 p-2 rounded-2xl">
+   <h1>Budget</h1>
+   <span id="budget">2500</span>
+   <h2>$</h2>
+  </div>
+  <div class="flex gap-2 text-2xl font-bold hover:bg-red-600 p-2 rounded-2xl">
+   <h3>Cart</h3>
+   <span id="cart">0</span>
+  </div>
+  <div class="flex gap-2 text-2xl font-bold hover:bg-red-600 p-2 rounded-2xl">
+   <h1>Left</h1>
+   <span id="left">6</span>
+  </div>
+ </nav>
+
+ <main>
+  <section class="flex">
+   <div class="flex-1 flex justify-center gap-9 items-center pl-5">
+    <!-- left card -->
+    <div class="">
+     <!-- card 1 -->
+     <div class="card mt-8 text-black bg-slate-200 shadow-2xl w-[100%]">
+      <div class="card-body items-center text-center">
+       <h2 class="text-2xl font-bold">Tamim Iqbal</h2>
+       <p class="text-2xl font-bold">Price <span>300</span> $</p>
+       <h3 class="text-2xl font-bold">Category: <span>Bat</span></h3>
+       <button class="btn add-btn">Add To Card</button>
+      </div>
+     </div>
+     <!-- card 2 -->
+     <div class="card mt-8 text-black bg-slate-200 shadow-2xl w-[100%]">
+      <div class="card-body items-center text-center">
+       <h2 class="text-2xl font-bold">Shakib Al Hasan</h2>
+       <p class="text-2xl font-bold">Price <span>300</span> $</p>
+       <h3 class="text-2xl font-bold">Category: <span>All-rounder</span></h3>
+       <button class="btn add-btn">Add To Card</button>
+      </div>
+     </div>
+     <!-- card 3 -->
+     <div class="card mt-8 text-black bg-slate-200 shadow-2xl w-[100%]">
+      <div class="card-body items-center text-center">
+       <h2 class="text-2xl font-bold">Moshfiq</h2>
+       <p class="text-2xl font-bold">Price <span>200</span> $</p>
+       <h3 class="text-2xl font-bold">Category: <span>Bat</span></h3>
+       <button class="btn add-btn">Add To Card</button>
+      </div>
+     </div>
+     <!-- card 4 -->
+     <div class="card mt-8 text-black bg-slate-200 shadow-2xl w-[100%]">
+      <div class="card-body items-center text-center">
+       <h2 class="text-2xl font-bold">Liton Das</h2>
+       <p class="text-2xl font-bold">Price <span>300</span> $</p>
+       <h3 class="text-2xl font-bold">Category: <span>Bat</span></h3>
+       <button class="btn add-btn">Add To Card</button>
+      </div>
+     </div>
+     <!-- card 5 -->
+     <div class="card mt-8 text-black bg-slate-200 shadow-2xl w-[100%]">
+      <div class="card-body items-center text-center">
+       <h2 class="text-2xl font-bold">Shanto</h2>
+       <p class="text-2xl font-bold">Price <span>400</span> $</p>
+       <h3 class="text-2xl font-bold">Category: <span>Bat</span></h3>
+       <button class="btn add-btn">Add To Card</button>
+      </div>
+     </div>
+    </div>
+    <!-- right card -->
+    <div class="">
+     <!-- card 1 -->
+     <div class="card mt-8 text-black bg-slate-200 shadow-2xl w-[100%]">
+      <div class="card-body items-center text-center">
+       <h2 class="text-2xl font-bold">Mostafiz</h2>
+       <p class="text-2xl font-bold">Price <span>400</span> $</p>
+       <h3 class="text-2xl font-bold">Category: <span>Ball</span></h3>
+       <button class="btn add-btn">Add To Card</button>
+      </div>
+     </div>
+     <!-- card 2 -->
+     <div class="card mt-8 text-black bg-slate-200 shadow-2xl w-[100%]">
+      <div class="card-body items-center text-center">
+       <h2 class="text-2xl font-bold">Taskin</h2>
+       <p class="text-2xl font-bold">Price <span>400</span> $</p>
+       <h3 class="text-2xl font-bold">Category: <span>Ball</span></h3>
+       <button class="btn add-btn">Add To Card</button>
+      </div>
+     </div>
+     <!-- card 3 -->
+     <div class="card mt-8 text-black bg-slate-200 shadow-2xl w-[100%]">
+      <div class="card-body items-center text-center">
+       <h2 class="text-2xl font-bold">Shariful</h2>
+       <p class="text-2xl font-bold">Price <span>300</span> $</p>
+       <h3 class="text-2xl font-bold">Category: <span>Ball</span></h3>
+       <button class="btn add-btn">Add To Card</button>
+      </div>
+     </div>
+     <!-- card 4 -->
+     <div class="card mt-8 text-black bg-slate-200 shadow-2xl w-[100%]">
+      <div class="card-body items-center text-center">
+       <h2 class="text-2xl font-bold">Mehedi Miraz</h2>
+       <p class="text-2xl font-bold">Price <span>300</span> $</p>
+       <h3 class="text-2xl font-bold">Category: <span>All-rounder</span></h3>
+       <button class="btn add-btn">Add To Card</button>
+      </div>
+     </div>
+     <!-- card 5 -->
+     <div class="card mt-8 text-black bg-slate-200 shadow-2xl w-[100%] ">
+      <div class="card-body items-center text-center">
+       <h2 class="text-2xl font-bold">Towhid Ridoy</h2>
+       <p class="text-2xl font-bold">Price <span>400</span> $</p>
+       <h3 class="text-2xl font-bold">Category: <span>Bat</span></h3>
+       <button class="btn add-btn">Add To Card</button>
+      </div>
+     </div>
+    </div>
+   </div>
+
+   <div class="flex-1 mt-9 justify-center">
+    <div class=" bg-slate-200 rounded-2xl mr-20">
+     <div class="hero-content text-center">
+      <div>
+       <hr class="border-black">
+       <h1 class="mb-5 text-5xl font-bold">My Cart</h1>
+       <hr class="border-black">
+       <div class="text-xl font-bold flex justify-between items-center p-3">
+        <p>name</p>
+        <p>Price</p>
+        <p>Category</p>
+       </div>
+       <!-- selected person -->
+       <div id="selected-player-container" class="">
+
+       </div>
+       <hr class="border-black">
+       <p class="text-xl font-bold mt-6">Total Cost : <span id="total-cost">0</span> $</p>
+       <div class="flex gap-4 p-5">
+        <input id="coupon-code" type="text" class="border-2 shadow-xl rounded-2xl px-6" placeholder="Coupon Code">
+        <button onclick="updateGrandTotalCost('apply-btn')" class="btn border-2 shadow-xl rounded-2xl apply-btn">APPLY</button>
+       </div>
+       <hr class="border-black">
+       <h4 class="text-lg font-bold">Grand Total: <span id="grand-total">0</span> $</h4>
+      </div>
+     </div>
+    </div>
+   </div>
+
+  </section>
+ </main>
+
+
+ <script src="javascriptFille/app.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<div class="navbar bg-base-100 container mx-auto">
+ <div class="navbar-start">
+  <div class="dropdown">
+   <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+    </svg>
+   </div>
+   <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
+
+    <li class="flext justify-center items-center">
+     <h1>Cart</h1>
+     <span>0</span>
+    </li>
+
+   </ul>
+  </div>
+
+  <a class="btn btn-ghost text-xl">Budget <span>2500</span>$</a>
+
+ </div>
+ <div class="navbar-center hidden lg:flex">
+  <ul class="menu menu-horizontal px-1">
+
+   <li class="text-2xl font-bold">Cart<span>0</span></li>
+
+  </ul>
+ </div>
+ <div class="navbar-end">
+  <div>left <span>6</span></div>
+ </div>
+</div> -->
